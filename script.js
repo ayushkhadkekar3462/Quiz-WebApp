@@ -120,7 +120,7 @@ correct[15] = `${c[15]}`;
 let button = document.querySelector(".btn");
 let questionbox = document.querySelector(".forquestions");
 let options = document.getElementsByClassName("option");
-var index = 0;
+var index = -1;
 var u;
 var r;
 var chosen;
