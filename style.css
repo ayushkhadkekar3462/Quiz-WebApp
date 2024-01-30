@@ -1,0 +1,312 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: rgb(146, 150, 162);
+}
+.outer
+{
+    width: 50%;
+    /* border: 2px solid rgb(249, 245, 245); */
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    row-gap: 1.5%;
+    padding-left: 2%;
+}
+.main
+{
+    display: flex;
+    
+}
+/* .palet
+{
+    width: 50%;
+    border: 2px solid rgb(249, 245, 245);
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1.5%;  
+} */
+.palet
+{
+    height: 100vh;
+    width: 50%;
+    /* border: 2px solid green; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    row-gap: 1.5%;
+    padding-right: 2%;
+    
+}
+.intro
+{
+    width: 30vw;
+    height: 10vh;
+    background-color: rgb(5, 141, 252);
+    border-radius:20px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150%;
+    font-weight: bolder;
+    color: rgb(252, 250, 250);
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 4px solid black;
+    padding-left: 10px;
+}
+.boxes
+{
+    background-color: rgb(64, 66, 67);
+    height: 60vh;
+    width: 30vw;
+    border-radius:20px ;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    /* row-gap: 3vh; */
+    /* justify-content:flex-start; */
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* align-items: center; */
+}
+.encloser
+{
+    width: 65%;
+    height: 60%;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(4,1fr);
+    row-gap:4px;
+    column-gap: 4px;
+}
+.btn2
+{
+    border: 2px solid black;
+    width: 30%;
+    height: 8%;
+    font-size: 150%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(5, 141, 252);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+    border-radius: 15px;
+
+}
+.btn2:hover
+{
+    transform: scale(1.01);
+    transition-property: transform;
+    transition-timing-function: linear;
+    /* transition-duration: 0.3s; */
+    cursor: pointer;
+}
+.box
+{
+    background-color: rgb(162, 197, 212);
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 160%;
+    box-sizing: border-box;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.box:hover
+{
+    background-color: rgb(245, 82, 12);
+    color: white;
+    transform: scale(1.05);
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
+.container
+{
+    background-color: rgb(2, 24, 36);
+    height: 60vh;
+    width: 30vw;
+    border-radius:20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 3vh;
+    /* justify-content:flex-start; */
+    border: 4px solid black;
+}
+.timepass
+{
+    justify-content: center;
+}
+/* .options
+{
+    width: 80%;
+    height: 10%;
+    background-color: aliceblue;
+    border-radius:20px ;
+    margin-top: 3%;
+} */
+.title
+{
+    width: 30vw;
+    height: 10vh;
+    background-color: rgb(252, 70, 4);
+    border-radius:20px ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 190%;
+    font-weight: bolder;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+}
+.forquestions
+{
+    height: 14%;
+    background-color: beige;
+    width: 95%;
+    border-radius: 10px;
+    margin-top: 2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150%;
+    font-weight: bolder;
+    padding-left: 2%;
+}
+.foroptions
+{
+    height: 55%;
+    /* background-color: aliceblue; */
+    /* border: 2px solid black; */
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0%;
+}
+.option
+{
+    height: 20%;
+    background-color: beige;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 3%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 130%;
+    color: rgb(21, 21, 21);
+    padding-left: 2%;
+    text-align: center;
+    
+
+}
+.btn
+{
+    /* border: 1px solid black; */
+    width: 34%;
+    height: 8%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 150%;
+    background-color: rgb(252, 70, 4);
+    color: white;
+    margin-top: 1%;
+    border: 2px solid black;
+    /* display: none; */
+    
+}
+.btn:hover
+{
+    background-color: rgb(255, 71, 4);
+    cursor:pointer;
+    transform: scale(1.01);
+    
+}
+.option:hover
+{
+    /* background-color: rgb(39, 36, 36); */
+    color: rgb(2, 2, 252);
+    transition-property:background-color;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    cursor:pointer;
+    transform: scale(1.01);
+    transition-property: transform;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+}
+
+.inactive {
+    /* color: rgb(36, 25, 193); */
+    pointer-events: none;
+    /* visibility: hidden; */
+    /* opacity: 0.5; You can adjust the opacity to visually indicate the element is inactive */
+  }
+  .hovered
+  {
+    background-color:rgb(250, 1, 1);
+  }
+  .exit
+  {
+    background-color: white;
+    width: 80%;
+    height: 50%;
+    border-radius: 10px;
+    /* margin-top: 6%; */
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-size: 180%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    border: 4px solid black;
+  }
+  p
+  {
+    color: blue;
+  }
+  span
+  {
+    color: crimson;
+  }
+  .class1
+  {
+    background-color: white;
+  }
+  .ayush
+  {
+    display: none;
+
+  }
