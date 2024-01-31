@@ -567,7 +567,11 @@ if (confirmation == true) {
     // created4.innerHTML=(`${d[index]}`)
     //   console.log(index);
     if (index == 16) {
-      questionbox.style.display = "none";
+      let ask=confirm("Are you sure you want to Submit the test?")
+      
+        if(ask==true)
+        {
+          questionbox.style.display = "none";
       document.querySelector(".foroptions").style.display = "none";
       button.style.display = "none";
       let h = document.createElement("div");
@@ -578,6 +582,7 @@ if (confirmation == true) {
       h.innerHTML = `Thank You ${username},<p>Your Final Score:<span>${points}/16</span></p>`;
       document.querySelector(".container").style.height = "20%";
       document.querySelector(".container").classList.add("timepass");
+        }
     }
   });
 
