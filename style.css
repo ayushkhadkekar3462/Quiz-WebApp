@@ -125,7 +125,7 @@ body
 .box
 {
     background-color: rgb(162, 197, 212);
-    border: 2px solid black;
+    border: 3.5px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
