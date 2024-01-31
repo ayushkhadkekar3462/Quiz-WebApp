@@ -571,6 +571,7 @@ if (confirmation == true) {
       
         if(ask==true)
         {
+            document.querySelector(".btn2").className="ayush";
           questionbox.style.display = "none";
       document.querySelector(".foroptions").style.display = "none";
       button.style.display = "none";
