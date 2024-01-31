@@ -528,15 +528,24 @@ if (confirmation == true) {
     options[3].innerHTML = `${d[15]}`;
   });
   document.querySelector(".btn2").addEventListener("click", () => {
-    questionbox.style.display = "none";
-    document.querySelector(".foroptions").style.display = "none";
-    button.style.display = "none";
-    let h = document.createElement("div");
-    h.className = "exit";
-    document.querySelector(".container").insertAdjacentElement("afterbegin", h);
-    h.innerHTML = `Thank You ${username},<p>Your Final Score:<span>${points}/16</span></p>`;
-    document.querySelector(".container").style.height = "20%";
-    document.querySelector(".container").classList.add("timepass");
+   let asks=confirm("Are you sure you want to Submit the test?")
+      
+        if(asks==true)
+        {
+          document.querySelector(".btn2").className="ayush";
+          questionbox.style.display = "none";
+      document.querySelector(".foroptions").style.display = "none";
+      button.style.display = "none";
+      let h = document.createElement("div");
+      h.className = "exit";
+      document
+        .querySelector(".container")
+        .insertAdjacentElement("afterbegin", h);
+      h.innerHTML = `Thank You ${username},<p>Your Final Score:<span>${points}/16</span></p>`;
+      document.querySelector(".container").style.height = "20%";
+      document.querySelector(".container").classList.add("timepass");
+      
+        }
   });
 
   button.addEventListener("click", () => {
