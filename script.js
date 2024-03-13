@@ -130,7 +130,10 @@ let username = prompt("Enter your name");
 let rollno = prompt("Enter your roll no.");
 let confirmation = confirm("Start Quiz?");
 
+
+
 if (confirmation == true) {
+  
     // questionbox.classList.add("ayush");
     // document.querySelector(".foroptions").classList.add("ayush");
   document.querySelector(".name").innerHTML = `NAME:${username}`;
